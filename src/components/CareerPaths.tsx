@@ -1,37 +1,37 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import CareerAssessment from "@/components/CareerAssessment";
 
 const CareerPaths = () => {
   const careerPaths = [
     {
-      category: "Technology",
+      category: "Technology & Digital",
       color: "primary",
       paths: [
-        { title: "Software Developer", demand: "High", salary: "$70K-$150K" },
-        { title: "Data Scientist", demand: "Very High", salary: "$80K-$180K" },
-        { title: "UX/UI Designer", demand: "High", salary: "$60K-$130K" },
-        { title: "Cybersecurity Specialist", demand: "Critical", salary: "$75K-$160K" }
+        { title: "Software Developer", demand: "High", salary: "R250K-R650K" },
+        { title: "Data Analyst", demand: "Very High", salary: "R280K-R580K" },
+        { title: "Digital Marketing", demand: "High", salary: "R180K-R450K" },
+        { title: "IT Support Specialist", demand: "Critical", salary: "R150K-R380K" }
       ]
     },
     {
-      category: "Healthcare",
+      category: "Healthcare & Social",
       color: "success",
       paths: [
-        { title: "Nurse Practitioner", demand: "High", salary: "$85K-$125K" },
-        { title: "Healthcare Administrator", demand: "Medium", salary: "$70K-$120K" },
-        { title: "Physical Therapist", demand: "High", salary: "$75K-$95K" },
-        { title: "Medical Technologist", demand: "High", salary: "$55K-$85K" }
+        { title: "Registered Nurse", demand: "Critical", salary: "R180K-R420K" },
+        { title: "Healthcare Administrator", demand: "High", salary: "R200K-R380K" },
+        { title: "Community Health Worker", demand: "High", salary: "R120K-R250K" },
+        { title: "Social Worker", demand: "High", salary: "R150K-R320K" }
       ]
     },
     {
-      category: "Business & Finance",
+      category: "Education & Training",
       color: "warm",
       paths: [
-        { title: "Financial Analyst", demand: "Medium", salary: "$65K-$110K" },
-        { title: "Marketing Manager", demand: "High", salary: "$70K-$140K" },
-        { title: "Project Manager", demand: "High", salary: "$75K-$135K" },
-        { title: "Business Consultant", demand: "Medium", salary: "$80K-$150K" }
+        { title: "Primary School Teacher", demand: "High", salary: "R180K-R350K" },
+        { title: "Corporate Trainer", demand: "Medium", salary: "R220K-R480K" },
+        { title: "Early Childhood Development", demand: "High", salary: "R120K-R280K" },
+        { title: "Skills Development Facilitator", demand: "Medium", salary: "R180K-R420K" }
       ]
     }
   ];
@@ -89,9 +89,7 @@ const CareerPaths = () => {
         </div>
         
         <div className="text-center">
-          <Button size="lg" className="bg-hero-gradient hover:opacity-90 transition-opacity text-lg px-8 py-6">
-            Take Career Assessment
-          </Button>
+          <CareerAssessment />
         </div>
       </div>
     </section>

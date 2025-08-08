@@ -4,34 +4,34 @@ import { Badge } from "@/components/ui/badge";
 const SuccessStories = () => {
   const stories = [
     {
-      name: "Maria Rodriguez",
-      beforeRole: "Restaurant Server",
-      afterRole: "Software Developer",
-      company: "Google",
-      story: "From serving tables to coding applications, Maria transformed her life through our platform's coding bootcamp recommendations and mentorship program.",
+      name: "Nomsa Mthembu",
+      beforeRole: "Domestic Worker",
+      afterRole: "Healthcare Administrator",
+      company: "Netcare",
+      story: "From cleaning homes to managing hospital operations, Nomsa transformed her life through our healthcare career path and earned her diploma while working.",
       timeframe: "18 months",
-      salaryIncrease: "300%",
+      salaryIncrease: "R8,000 to R28,000",
+      avatar: "👩🏿‍💼"
+    },
+    {
+      name: "Lerato Mokoena",
+      beforeRole: "Shop Assistant",
+      afterRole: "Digital Marketing Manager",
+      company: "Takealot",
+      story: "After completing matric at 25, Lerato discovered her passion for digital marketing through our assessment and is now leading e-commerce campaigns.",
+      timeframe: "14 months", 
+      salaryIncrease: "R6,500 to R35,000",
       avatar: "👩🏽‍💻"
     },
     {
-      name: "Aisha Patel",
-      beforeRole: "Stay-at-home Mom",
-      afterRole: "Digital Marketing Manager",
-      company: "Shopify",
-      story: "After 8 years out of the workforce, Aisha rebuilt her career with our flexible learning paths and landed her dream job in tech marketing.",
-      timeframe: "12 months", 
-      salaryIncrease: "From $0 to $85K",
-      avatar: "👩🏻‍💼"
-    },
-    {
-      name: "Jennifer Chen",
-      beforeRole: "Retail Associate",
-      afterRole: "Data Scientist",
-      company: "Microsoft",
-      story: "Jennifer discovered her passion for data analysis through our career assessment and is now leading AI projects at one of the world's top tech companies.",
-      timeframe: "24 months",
-      salaryIncrease: "400%",
-      avatar: "👩🏻‍🔬"
+      name: "Thandi Ndlovu",
+      beforeRole: "Factory Worker",
+      afterRole: "Primary School Teacher",
+      company: "Gauteng Department of Education",
+      story: "Thandi always loved working with children. Through our education pathway, she completed her teaching diploma and now inspires young minds in Soweto.",
+      timeframe: "36 months",
+      salaryIncrease: "R4,800 to R22,000",
+      avatar: "👩🏿‍🏫"
     }
   ];
 
@@ -86,7 +86,7 @@ const SuccessStories = () => {
               <div className="text-sm">Career Transition Success</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-success">$40K</div>
+              <div className="text-3xl font-bold text-success">R35K</div>
               <div className="text-sm">Average Salary Increase</div>
             </div>
             <div className="text-center">

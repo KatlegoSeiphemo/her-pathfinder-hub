@@ -25,20 +25,21 @@ const ChatBot = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const careerResponses = {
-    "tech": "Technology offers amazing opportunities! Consider starting with coding bootcamps, online courses, or exploring roles like web development, data analysis, or UX design. What specific area interests you?",
-    "business": "Business careers are diverse! You could explore marketing, project management, entrepreneurship, or consulting. Building communication and analytical skills is key. What aspect of business excites you most?",
-    "healthcare": "Healthcare is incredibly rewarding! Consider nursing, healthcare administration, medical technology, or therapy. Many roles offer flexible education paths. Are you interested in direct patient care or behind-the-scenes work?",
-    "education": "Education opens doors to impact lives! Teaching, curriculum development, educational technology, or administration are great paths. Consider what age group or subject area you're passionate about.",
-    "creative": "Creative fields are flourishing! Graphic design, content creation, marketing, writing, or digital media offer exciting opportunities. Building a portfolio is crucial. What type of creative work inspires you?",
-    "skills": "Focus on both hard and soft skills! Communication, problem-solving, and adaptability are universally valuable. Consider online courses, workshops, or volunteering to build experience. What skills would you like to develop?",
-    "start": "Starting your career journey is exciting! First, identify your interests and strengths. Research different fields, network with professionals, and consider internships or entry-level positions. What's your educational background?",
-    "default": "That's a great question! Career paths are unique to each person. Consider your interests, skills, and values. I'd recommend speaking with professionals in fields that interest you and exploring online resources. What specific aspect would you like to know more about?"
+    "tech": "Technology offers great opportunities in SA! Consider starting with coding bootcamps, online courses, or exploring roles like web development, data analysis, or IT support. Many companies like Capitec, Discovery, and MTN are hiring. What specific tech area interests you?",
+    "business": "Business careers are diverse in SA! You could explore marketing, project management, entrepreneurship, or consulting. Companies like Shoprite, Woolworths, and Pick n Pay offer growth opportunities. What aspect of business excites you most?",
+    "healthcare": "Healthcare is incredibly rewarding and in high demand in SA! Consider nursing, healthcare administration, community health work, or therapy. Both public and private sectors offer opportunities. Are you interested in direct patient care or administration?",
+    "education": "Education is vital in SA! Teaching, corporate training, or educational program development offer great impact. Consider specializing in early childhood, primary, or adult education. What age group or subject interests you?",
+    "creative": "Creative fields are growing in SA! Graphic design, content creation, digital marketing, or media production offer exciting opportunities. Cape Town and Joburg have thriving creative scenes. What type of creative work inspires you?",
+    "skills": "Focus on both hard and soft skills! Communication, problem-solving, and adaptability are universally valuable. Consider online courses, SETA programs, or skills development initiatives. What skills would you like to develop?",
+    "start": "Starting your career journey in SA is exciting! First, identify your interests and strengths. Research different fields, network with professionals, and consider learnerships or internships. What's your educational background?",
+    "salary": "Salaries in SA vary by field and experience. Entry-level positions typically start from R8,000-R15,000, while skilled professionals can earn R25,000-R50,000+ monthly. Location and industry make a big difference. What field are you considering?",
+    "default": "That's a great question! Career paths in SA are diverse and growing. Consider your interests, skills, and the job market in your area. I'd recommend taking our career assessment to get personalized recommendations. What specific aspect interests you?"
   };
 
   const getBotResponse = (userMessage: string): string => {
     const message = userMessage.toLowerCase();
     
-    if (message.includes("tech") || message.includes("coding") || message.includes("programming")) {
+    if (message.includes("tech") || message.includes("coding") || message.includes("programming") || message.includes("it")) {
       return careerResponses.tech;
     } else if (message.includes("business") || message.includes("marketing") || message.includes("management")) {
       return careerResponses.business;
@@ -52,6 +53,8 @@ const ChatBot = () => {
       return careerResponses.skills;
     } else if (message.includes("start") || message.includes("begin") || message.includes("how")) {
       return careerResponses.start;
+    } else if (message.includes("salary") || message.includes("money") || message.includes("pay") || message.includes("earn")) {
+      return careerResponses.salary;
     } else {
       return careerResponses.default;
     }
