@@ -45,7 +45,7 @@ All colors MUST be HSL.
     --warm: 20 60% 75%;
     --warm-foreground: 0 0% 98%;
 
-    --shadow-elegant: 0 10px 30px -10px hsl(280 60% 65% / 0.2);
+    --shadow-elegant: 0 10px 30px -10px hsl(280 60% 65% / 0.15), 0 4px 12px -4px hsl(280 60% 65% / 0.1);
     --shadow-glow: 0 0 40px hsl(var(--accent-glow) / 0.4);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
