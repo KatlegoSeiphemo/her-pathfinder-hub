@@ -28,19 +28,16 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button 
+          <a href="#careers">
+            <Button 
             size="lg"
             className="bg-white text-primary hover:bg-white/90 text-lg px-8 py-6 shadow-elegant"
+            
           >
             Start Your Journey
           </Button>
-          <Button 
-            size="lg"
-            variant="outline"
-            className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
-          >
-            Explore Career Paths
-          </Button>
+          </a>
+          
         </div>
         
         <div className="mt-12 flex justify-center items-center space-x-8 text-white/80">
