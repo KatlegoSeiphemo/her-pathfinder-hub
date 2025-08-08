@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import CareerPaths from "@/components/CareerPaths";
 import SuccessStories from "@/components/SuccessStories";
 import Footer from "@/components/Footer";
+import ChatBot from "@/components/ChatBot";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <SuccessStories />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 };
