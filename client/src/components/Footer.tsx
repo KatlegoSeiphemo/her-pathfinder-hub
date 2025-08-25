@@ -6,12 +6,12 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">H</span>
+                <span className="text-white font-bold">C</span>
               </div>
-              <span className="text-xl font-bold">empowerHER</span>
+              <span className="text-xl font-bold">CareerNest</span>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Empowering women and girls to discover their potential and achieve their career dreams through education, mentorship, and opportunity.
+              Empowering individuals to discover their potential and achieve their career dreams through education, mentorship, and opportunity.
             </p>
           </div>
           
@@ -48,7 +48,7 @@ const Footer = () => {
         
         <div className="border-t border-white/20 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/80">
-            © 2024 empowerHER. All rights reserved. Empowering women to transform their futures.
+            © 2024 CareerNest. All rights reserved. Empowering people to transform their futures.
           </p>
         </div>
       </div>

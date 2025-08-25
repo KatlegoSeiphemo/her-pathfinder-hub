@@ -8,23 +8,23 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Empowered professional women"
+          alt="Professional career growth"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-hero-gradient opacity-80"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 to-slate-700/80"></div>
       </div>
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          Empower Your 
-          <span className="block bg-gradient-to-r from-white to-secondary-foreground bg-clip-text text-transparent">
+          Build Your 
+          <span className="block bg-gradient-to-r from-white to-slate-200 bg-clip-text text-transparent">
             Career Journey
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
-          Discover your potential, explore career paths, and connect with opportunities designed specifically for women and girls ready to transform their futures.
+          Discover your potential, explore career paths, and connect with opportunities designed to transform your future.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -43,7 +43,7 @@ const Hero = () => {
         <div className="mt-12 flex justify-center items-center space-x-8 text-white/80">
           <div className="text-center">
             <div className="text-2xl font-bold">10K+</div>
-            <div className="text-sm">Women Empowered</div>
+            <div className="text-sm">People Empowered</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold">500+</div>

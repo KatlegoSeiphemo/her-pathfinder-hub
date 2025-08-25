@@ -36,16 +36,16 @@ All colors MUST be HSL.
     --input: 280 20% 92%;
     --ring: 280 60% 65%;
 
-    /* Custom empowerHER design tokens - softer palette */
-    --hero-gradient: linear-gradient(135deg, hsl(280, 50%, 75%) 0%, hsl(310, 40%, 80%) 50%, hsl(340, 35%, 85%) 100%);
-    --card-gradient: linear-gradient(135deg, hsl(280, 30%, 98%) 0%, hsl(320, 25%, 98%) 100%);
-    --accent-glow: 280 60% 80%;
+    /* Custom CareerNest design tokens - professional neutral palette */
+    --hero-gradient: linear-gradient(135deg, hsl(210, 40%, 65%) 0%, hsl(220, 35%, 70%) 50%, hsl(230, 30%, 75%) 100%);
+    --card-gradient: linear-gradient(135deg, hsl(220, 20%, 98%) 0%, hsl(210, 15%, 98%) 100%);
+    --accent-glow: 210 40% 70%;
     --success: 142 45% 55%;
     --success-foreground: 355 20% 98%;
     --warm: 20 60% 75%;
     --warm-foreground: 0 0% 98%;
 
-    --shadow-elegant: 0 10px 30px -10px hsl(280 60% 65% / 0.15), 0 4px 12px -4px hsl(280 60% 65% / 0.1);
+    --shadow-elegant: 0 10px 30px -10px hsl(210 40% 65% / 0.15), 0 4px 12px -4px hsl(210 40% 65% / 0.1);
     --shadow-glow: 0 0 40px hsl(var(--accent-glow) / 0.4);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 

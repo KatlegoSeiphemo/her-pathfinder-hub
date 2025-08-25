@@ -39,11 +39,11 @@ const SuccessStories = () => {
     <section id="stories" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent">
-            Real Women, Real Success
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">
+            Real Stories, Real Success
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Be inspired by the incredible journeys of women who transformed their careers and lives through empowerHER.
+            Be inspired by the incredible journeys of people who transformed their careers and lives through CareerNest.
           </p>
         </div>
         

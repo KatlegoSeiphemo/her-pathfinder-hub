@@ -22,14 +22,14 @@ const Features = () => {
     },
     {
       title: "Mentorship Network",
-      description: "Connect with successful women professionals who can guide your career journey.",
+      description: "Connect with successful professionals who can guide your career journey.",
       icon: "🤝",
       badge: "Premium",
       path: "/mentorship"
     },
     {
       title: "Success Stories",
-      description: "Get inspired by real stories from women who've transformed their careers and lives.",
+      description: "Get inspired by real stories from people who've transformed their careers and lives.",
       icon: "⭐",
       badge: "Inspiring",
       path: "/success-stories"
@@ -43,7 +43,7 @@ const Features = () => {
     },
     {
       title: "Community Support",
-      description: "Join a supportive community of like-minded women on similar journeys.",
+      description: "Join a supportive community of like-minded individuals on similar journeys.",
       icon: "👥",
       badge: "24/7",
       path: "/communities"
@@ -54,7 +54,7 @@ const Features = () => {
     <section id="features" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-hero-gradient bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">
             Everything You Need to Succeed
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
