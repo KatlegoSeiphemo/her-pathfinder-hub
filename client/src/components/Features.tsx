@@ -35,6 +35,20 @@ const Features = () => {
       path: "/success-stories"
     },
     {
+      title: "Professional CV Generator",
+      description: "Create stunning CVs that stand out to employers using our professional templates.",
+      icon: "📄",
+      badge: "New",
+      path: "/cv-generator"
+    },
+    {
+      title: "Cover Letter Generator",
+      description: "Write compelling cover letters that get you noticed with smart templates.",
+      icon: "✉️",
+      badge: "New",
+      path: "/cover-letter"
+    },
+    {
       title: "Job Opportunity Matching",
       description: "Find positions that align with your skills, values, and career goals.",
       icon: "💼",

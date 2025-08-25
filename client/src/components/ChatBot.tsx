@@ -100,17 +100,17 @@ const ChatBot = () => {
           <SheetTrigger asChild>
             <Button
               size="lg"
-              className="h-14 w-14 rounded-full bg-gradient-primary text-white shadow-elegant hover:shadow-glow transition-all duration-300 hover:scale-105"
+              className="h-14 w-14 rounded-full bg-gradient-to-r from-slate-600 to-slate-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <MessageCircle className="h-6 w-6" />
             </Button>
           </SheetTrigger>
           <SheetContent side="right" className="w-[400px] sm:w-[540px] p-0">
             <div className="flex flex-col h-full">
-              <SheetHeader className="p-6 border-b bg-gradient-subtle">
-                <SheetTitle className="flex items-center gap-2 text-primary">
+              <SheetHeader className="p-6 border-b bg-gradient-to-r from-slate-50 to-slate-100">
+                <SheetTitle className="flex items-center gap-2 text-slate-800">
                   <Bot className="h-5 w-5" />
-                  Career Guidance Assistant
+                  CareerNest AI Assistant
                 </SheetTitle>
               </SheetHeader>
 
@@ -125,7 +125,7 @@ const ChatBot = () => {
                       }`}
                     >
                       {message.isBot && (
-                        <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center flex-shrink-0">
+                        <div className="w-8 h-8 rounded-full bg-gradient-to-r from-slate-600 to-slate-800 flex items-center justify-center flex-shrink-0">
                           <Bot className="h-4 w-4 text-white" />
                         </div>
                       )}
@@ -133,7 +133,7 @@ const ChatBot = () => {
                         className={`max-w-[80%] p-3 rounded-lg ${
                           message.isBot
                             ? "bg-muted text-muted-foreground"
-                            : "bg-gradient-primary text-white"
+                            : "bg-gradient-to-r from-slate-600 to-slate-800 text-white"
                         }`}
                       >
                         <p className="text-sm">{message.text}</p>
@@ -162,7 +162,7 @@ const ChatBot = () => {
                     onClick={handleSendMessage}
                     disabled={!inputMessage.trim()}
                     size="icon"
-                    className="bg-gradient-primary hover:bg-gradient-primary/90"
+                    className="bg-gradient-to-r from-slate-600 to-slate-800 hover:opacity-90"
                   >
                     <Send className="h-4 w-4" />
                   </Button>

@@ -31,18 +31,40 @@ const Header = () => {
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#features" className="text-foreground hover:text-primary transition-colors">
-              Features
-            </a>
-            <a href="#careers" className="text-foreground hover:text-primary transition-colors">
-              Career Paths
-            </a>
-            <a href="#stories" className="text-foreground hover:text-primary transition-colors">
-              Success Stories
-            </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
-            </a>
+            {isAuthenticated ? (
+              <>
+                <a href="/career-assessment" className="text-foreground hover:text-primary transition-colors">
+                  Career Assessment
+                </a>
+                <a href="/cv-generator" className="text-foreground hover:text-primary transition-colors">
+                  CV Generator
+                </a>
+                <a href="/cover-letter" className="text-foreground hover:text-primary transition-colors">
+                  Cover Letter
+                </a>
+                <a href="/job-matching" className="text-foreground hover:text-primary transition-colors">
+                  Job Matching
+                </a>
+                <a href="/mentorship" className="text-foreground hover:text-primary transition-colors">
+                  Mentorship
+                </a>
+              </>
+            ) : (
+              <>
+                <a href="#features" className="text-foreground hover:text-primary transition-colors">
+                  Features
+                </a>
+                <a href="#careers" className="text-foreground hover:text-primary transition-colors">
+                  Career Paths
+                </a>
+                <a href="#stories" className="text-foreground hover:text-primary transition-colors">
+                  Success Stories
+                </a>
+                <a href="#about" className="text-foreground hover:text-primary transition-colors">
+                  About
+                </a>
+              </>
+            )}
           </nav>
 
           <div className="flex items-center space-x-4">

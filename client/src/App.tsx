@@ -11,6 +11,8 @@ import MentorshipNetwork from "./pages/MentorshipNetwork";
 import JobMatching from "./pages/JobMatching";
 import Communities from "./pages/Communities";
 import SuccessStoriesPage from "./pages/SuccessStoriesPage";
+import CVGenerator from "./pages/CVGenerator";
+import CoverLetterGenerator from "./pages/CoverLetterGenerator";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/job-matching" element={<JobMatching />} />
           <Route path="/communities" element={<Communities />} />
           <Route path="/success-stories" element={<SuccessStoriesPage />} />
+          <Route path="/cv-generator" element={<CVGenerator />} />
+          <Route path="/cover-letter" element={<CoverLetterGenerator />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
